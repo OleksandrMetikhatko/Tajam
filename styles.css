@@ -1,0 +1,90 @@
+body {
+   margin: 0;
+   font-family: 'roboto', sans-serif;
+   font-size: 14px;
+   color: #fff;
+   background-color: #ffffff;
+}
+
+*,
+:before,
+:after{
+   box-sizing: border-box;
+}
+
+/* Conteiner 
+==============*/
+.conteiner{
+   width: 100%;
+   max-width: 949px;
+   margin: 0 auto;
+}
+
+
+/* Header 
+==============*/
+.header{
+   width: 100%;
+   height: 70px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between ;
+}
+
+.header__logo{
+  padding: 14px;
+  background-image: linear-gradient(90deg, #00e0d0 0%, #4aa3cc, 100%) ;
+
+}
+
+.header__logo__title{
+   padding: 20px;
+   font-size: 30px;
+   color: #ffffff;
+   font-weight: 250;
+   font-family: "Roboto";
+   text-align: center;
+}
+
+.nav{
+   display: flex;
+   font-size: 13px;
+   padding: 35px;
+   font-size: 13px;
+   letter-spacing: 0px;
+   font-weight: 900;
+   font-family: "Roboto";
+   text-align: right;
+}
+
+.nav__link__home {
+   color: #00e0d0 ;
+   text-decoration: none;
+}
+
+.nav__link{
+   margin-left: 27px;
+   color: #fff;
+   text-decoration: none;
+}
+
+.nav__link:hover{
+   text-decoration: underline;
+}
+
+/* Intro 
+==============*/
+.intro{
+   padding-top: 70px;
+   height: 670px;
+   width: 1600px;
+   background: #2c264b url(img/Intro_bg.png ) center no-repeat;
+   background-image: linear-gradient(90 deg, #09052f 0%,#311d5e 100%);
+}
